@@ -1,0 +1,113 @@
+.doggy-mazes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 100%;
+    height: 50vh; /* This ensures the container takes the full height of the viewport */
+  }
+  
+  .maze-board-container {
+    margin-top: 5px; /* Adjust the margin as needed */
+  }
+
+  .center-texties {
+    margin-top: 400px;
+  }
+
+  .center-texts {
+    margin-top: -30px;
+  }
+
+  .maze-board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 499px;
+    margin: auto;
+    margin-top: -5px;
+  }
+  
+  .maze-row {
+    display: flex;
+  }
+  
+  .maze-celles {
+    width: 17px;
+    height: 17px;
+    border: 1px solid black;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+  }
+  
+  .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 8px;
+  }
+
+  
+  @media screen and (max-width: 499px) {
+    .maze-celles {
+      width: 9.8px;
+      height: 9.8px;
+      font-size: 9px;
+    }
+  
+    .icon {
+      font-size: 6npx;
+    }
+    .center-texties {
+      text-align: center;
+      margin-top: 200px;
+    }
+  
+    .center-texts {
+      text-align: center;
+      margin-top: -30px;
+      margin-bottom: 25px;
+    }
+  
+    h3 {
+      margin-top: 25px;
+      margin-bottom: 5px;
+      font-size: 15px;
+      text-align: center;
+      margin: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) and (min-width: 500px) {
+    .maze-celles {
+      width: 13px;
+      height: 13px;
+      font-size: 11px;
+    }
+  
+    .icon {
+      font-size: 6px;
+    }
+    .center-texties {
+      text-align: center;
+      margin-top: 350px;
+    }
+  
+    .center-texts {
+      text-align: center;
+      margin-top: -30px;
+      margin-bottom: 30px;
+    }
+  
+    h3 {
+      margin-top: 25px;
+      margin-bottom: 5px;
+      font-size: 15px;
+      text-align: center;
+      margin: 5px;
+    }
+  }

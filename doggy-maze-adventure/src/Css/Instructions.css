@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 18px;
+
+  }
+.instruction {
+    max-width: 800px;
+    padding: 25px;
+    padding-left: 30px;
+    padding-top: 0px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    text-align: justify;
+  }
+  
+  .instruction h2 {
+    color: black;
+    text-align: center;
+  }
+  
+  .instruction p {
+    color: black;
+    line-height: 1.5;
+  }
+
+  .instruction ol {
+    margin-left: 20px;
+    color: black;
+  }
+  
+  .instruction li {
+    margin-bottom: 10px;
+  }
+  
+  .instruction button {
+    display: block;
+    margin: 20px auto; 
+  }
+ 
+  .buttons button {
+    background-color: #deaf84;
+    color: black;
+    border: 2px solid #97704f;
+    padding: 5px 5px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'alkatra', sans-serif;
+  }
+  
+  .buttons button:hover {
+    background-color: #714423; 
+  }
+
+  @media only screen and (min-width: 1025px) {
+    .body {
+        font-size: 17px;
+      }
+    .instruction {
+        max-width: 800px;
+        padding: 25px;
+        padding-left: 30px;
+        padding-top: 0px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        background-color: whitesmoke;
+      }
+      
+
+      .instruction li {
+        margin-bottom: 5px;
+      }
+      
+      .instruction button {
+        display: block;
+        margin: 10px auto; 
+      }
+
+      .buttons button {
+        background-color: #deaf84;
+        color: black;
+        border: 2px solid #97704f;
+        padding: 10px 10px;
+        font-size: 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-family: 'alkatra', sans-serif;
+      }
+}
+
+@media screen and (max-width: 499px) {
+  .body {
+    font-size: 10.9px;
+  }
+.instruction {
+    max-width: 320px;
+    max-height: 500px;
+    padding: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: whitesmoke;
+  }
+  
+
+  .instruction li {
+    margin-bottom: 5px;
+  }
+  
+  .instruction button {
+    display: block;
+    margin: 10px auto; 
+  }
+
+  .buttons button {
+    background-color: #deaf84;
+    color: black;
+    border: 2px solid #97704f;
+    padding: 3px 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'alkatra', sans-serif;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 500px) {
+  .body {
+    font-size: 13px;
+  }
+.instruction {
+    max-width: 420px;
+    max-height: 525px;
+    padding: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: whitesmoke;
+  }
+  
+
+  .instruction li {
+    margin-bottom: 5px;
+  }
+  
+  .instruction button {
+    display: block;
+    margin: 10px auto; 
+  }
+
+  .buttons button {
+    background-color: #deaf84;
+    color: black;
+    border: 2px solid #97704f;
+    padding: 3px 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'alkatra', sans-serif;
+  }
+}

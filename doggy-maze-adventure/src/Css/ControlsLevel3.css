@@ -1,0 +1,55 @@
+.mobiles-controls button {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    margin-left: -5px;
+    background-color: #deaf84;
+    color: black;
+    border: 2px solid #97704f;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+  }
+  
+  @media screen and (max-width: 499px) {
+
+     /* down button */
+  .mobiles-controls button:nth-child(4) {
+    margin-top: 635px;
+    margin-left: -2px;
+
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* right button */
+  .mobiles-controls button:nth-child(3) {
+    margin-top: 260px;
+    margin-left: 240px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  /* Left button */
+  .mobiles-controls button:nth-child(2) {
+    margin-left: -240px;
+    margin-top: 262px;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%) translateX(-100%);
+  }
+  
+  /* Up button */
+  .mobiles-controls button:nth-child(1) {
+    margin-top: -115px;
+    margin-left: -2px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+  }
+  
+}
+
+
